@@ -2,9 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Nav from '../components/Nav.astro';
+
+const pageTitle = "Blogg";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={pageTitle}>
     <Nav></Nav>
 	<main>
 		<svg
